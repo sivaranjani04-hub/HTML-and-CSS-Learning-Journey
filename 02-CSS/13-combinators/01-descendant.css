@@ -1,0 +1,3 @@
+/* A B (space): selects EVERY B anywhere inside A, no matter how deep */
+.demo p { color: crimson; font-weight: bold; }
+.demo { border: 2px dashed #999; padding: 10px; }

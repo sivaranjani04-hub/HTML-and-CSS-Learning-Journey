@@ -1,0 +1,5 @@
+.box { width: 180px; height: 90px; border: 3px solid #3f51b5; background: #e8eaf6; margin: 0 25px 100px 0; padding: 8px; display: inline-block; vertical-align: top; }
+.visible { overflow: visible; }
+.hidden  { overflow: hidden; }
+.clip    { overflow: clip; }
+.clipm   { overflow: clip; overflow-clip-margin: 15px; }  /* extends the clip area (Chrome/Edge) */

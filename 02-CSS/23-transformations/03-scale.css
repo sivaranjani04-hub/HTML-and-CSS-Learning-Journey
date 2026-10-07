@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; padding: 30px; }
+.row { display: flex; gap: 70px; margin: 50px 0; }
+.box { width: 100px; height: 70px; background: #3f51b5; color: white; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 14px; }
+.ghost { background: rgba(0,0,0,.12); color: #555; position: absolute; }
+/* scale(1) = original size */
+.s1 { transform: scale(1.5); }       /* 150% */
+.s2 { transform: scale(0.5); }       /* 50% */
+.s3 { transform: scaleX(2); }        /* wider only */
+.s4 { transform: scaleY(1.8); }      /* taller only */
+.row { gap: 110px; }

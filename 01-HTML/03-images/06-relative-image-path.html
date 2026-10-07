@@ -1,0 +1,19 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative Image Path</title>
+  </head>
+  <body>
+    <h1>Relative Image Paths</h1>
+    <!-- Same folder level: just the file name, e.g. dog.jpg -->
+    <!-- Inside a folder:   assets/dog.jpg -->
+    <!-- Deeper folder:     assets/images/dog.jpg -->
+    <p>PNG from assets/:</p>
+    <img src="assets/dog.png" alt="Dog PNG" width="200" />
+    <p>JPG from assets/images/ (a sub-folder):</p>
+    <img src="assets/images/dog.jpg" alt="Dog JPG" width="200" />
+  </body>
+</html>

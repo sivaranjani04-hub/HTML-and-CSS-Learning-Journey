@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>overflow visible / hidden / clip</title>
+  <link rel="stylesheet" href="01-visible-hidden-clip.css">
+</head>
+<body>
+  <div class="box visible"><b>visible (default)</b><br>The text is longer than the box so it spills out of the box and shows below.</div>
+  <div class="box hidden"><b>hidden</b><br>The text is longer than the box so the extra part is cut off and cannot be reached.</div>
+  <div class="box clip"><b>clip</b><br>The text is longer than the box so the extra part is cut off exactly like hidden, but no scrolling is ever possible.</div>
+  <div class="box clipm"><b>clip + margin</b><br>The text is longer than the box so the extra part is cut, but 15px beyond the box is still visible.</div>
+</body>
+</html>

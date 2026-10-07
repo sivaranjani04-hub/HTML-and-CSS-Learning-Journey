@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; background: #fafafa; padding: 20px; }
+/* each gallery item sits side by side thanks to inline-block */
+.gallery { display: inline-block; margin: 8px; border: 1px solid #ccc; padding: 6px; background: white; }
+.gallery:hover { border-color: #3f51b5; box-shadow: 0 4px 12px rgba(0,0,0,.3); }   /* hover effect */
+.gallery img { width: 280px; height: 187px; display: block; object-fit: cover; }
+.desc { padding: 10px; text-align: center; font-size: 15px; }

@@ -1,0 +1,11 @@
+.box { width: 200px; padding: 14px; margin: 10px; display: inline-block;
+       border-width: 6px; border-color: #3f51b5; background: #fafafa; }
+.solid  { border-style: solid; }
+.dashed { border-style: dashed; }
+.dotted { border-style: dotted; }
+.double { border-style: double; }
+.groove { border-style: groove; }
+.ridge  { border-style: ridge; }
+.inset  { border-style: inset; }
+.outset { border-style: outset; }
+.none   { border-style: none; }   /* no border */

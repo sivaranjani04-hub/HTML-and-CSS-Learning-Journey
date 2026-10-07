@@ -1,0 +1,27 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Basic Form</h1>
+    <!-- action = where the data is sent. method = HOW it is sent (get or post) -->
+    <h3>GET (data appears in the URL)</h3>
+    <form action="result.html" method="get">
+      <label for="n1">Name:</label>
+      <input type="text" id="n1" name="username" />
+      <input type="submit" value="Send with GET" />
+    </form>
+    <h3>POST (data is hidden in the request body)</h3>
+    <!-- httpbin.org is a free test server that shows what you sent. Needs internet. -->
+    <form action="https://httpbin.org/post" method="post">
+      <label for="n2">Name:</label>
+      <input type="text" id="n2" name="username" />
+      <input type="submit" value="Send with POST" />
+    </form>
+  </body>
+</html>

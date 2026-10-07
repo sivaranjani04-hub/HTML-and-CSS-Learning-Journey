@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <form action="result.html" method="get">
+    <label for="name">Full name:</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required minlength="3">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <label for="pw">Password:</label>
+    <input type="password" id="pw" name="pw" minlength="8" required>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="10 digits">
+    <label for="dob">Date of birth:</label>
+    <input type="date" id="dob" name="dob">
+    <p>Gender:</p>
+    <input type="radio" id="g1" name="gender" value="f"> <label class="inline" for="g1">Female</label>
+    <input type="radio" id="g2" name="gender" value="m"> <label class="inline" for="g2">Male</label>
+    <label for="course">Course:</label>
+    <select id="course" name="course"><option value="html">HTML</option><option value="css">CSS</option></select>
+    <p>Interests:</p>
+    <input type="checkbox" id="i1" name="interest" value="web"> <label class="inline" for="i1">Web</label>
+    <input type="checkbox" id="i2" name="interest" value="ai"> <label class="inline" for="i2">AI</label>
+    <label for="about">About you:</label>
+    <textarea id="about" name="about" rows="4"></textarea>
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear form">   <!-- reset puts every field back to its starting value -->
+  </form>
+</body>
+</html>

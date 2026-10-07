@@ -1,0 +1,3 @@
+/* A > B: selects only B elements that are DIRECT children of A */
+.demo > p { color: green; font-weight: bold; }
+.demo { border: 2px dashed #999; padding: 10px; }

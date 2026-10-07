@@ -1,0 +1,4 @@
+span, div { background: #bbdefb; border: 2px solid #1565c0; padding: 6px; margin: 4px; }
+.blk { display: block; width: 200px; }          /* new line each time, can have width */
+.inl { display: inline; width: 200px; height: 80px; }  /* width and height are IGNORED */
+.ib  { display: inline-block; width: 150px; height: 60px; }  /* sits in the line AND respects size */

@@ -1,0 +1,24 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>onclick JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>onclick Example (JavaScript)</h1>
+    <!-- JavaScript is used ONLY here: onclick runs code when the button is clicked -->
+    <button class="btn" onclick="alert('Hello! You clicked the button.')">
+      Show alert
+    </button>
+    <button
+      class="btn green"
+      onclick="document.getElementById('msg').innerHTML = 'Button was clicked!'"
+    >
+      Change text
+    </button>
+    <p id="msg">This text will change.</p>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+.box p { background: #fff9c4; }              /* descendant: all four paragraphs */
+.box > p { border-left: 6px solid green; }   /* child: 1, 2, 3 (not 4) */
+h3 ~ p { color: blue; }                      /* general sibling: 2, 3 */
+h3 + p { font-weight: bold; }                /* adjacent sibling: 2 only */
+p { margin: 6px; padding: 6px; }

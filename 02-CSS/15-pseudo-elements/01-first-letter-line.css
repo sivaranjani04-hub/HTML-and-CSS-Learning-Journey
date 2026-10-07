@@ -1,0 +1,3 @@
+p { font-size: 18px; width: 400px; }
+p::first-letter { font-size: 3em; color: crimson; float: left; margin-right: 6px; line-height: 1; }  /* drop cap */
+p::first-line { font-weight: bold; color: navy; }

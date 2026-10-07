@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; padding: 30px; }
+.track { position: relative; height: 90px; background: #eceff1; margin: 10px 0 30px; }
+.ball { position: absolute; width: 60px; height: 60px; top: 15px; left: 0; background: #e91e63; border-radius: 50%; }
+@keyframes slide { from { left: 0; } to { left: calc(100% - 60px); } }
+.ball { animation-name: slide; animation-duration: 2s; }
+.a { animation-iteration-count: 3; }                       /* play 3 times */
+.b { animation-iteration-count: infinite; animation-delay: 2s; background: #3f51b5; }

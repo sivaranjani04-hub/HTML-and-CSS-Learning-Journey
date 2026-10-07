@@ -1,0 +1,4 @@
+/* sticky: behaves like relative until it reaches top: 0, then sticks */
+.spacer { height: 200px; background: #c8e6c9; }
+.sticky { position: sticky; top: 0; background: #3f51b5; color: white; padding: 12px; }
+.tall { height: 1500px; background: linear-gradient(#fff, #ffcc80); }

@@ -1,0 +1,30 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Dropdown</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Select (Dropdown)</h1>
+    <form action="result.html" method="get">
+      <label for="course">Choose a course:</label>
+      <select id="course" name="course">
+        <!-- value is what is sent; the text between tags is what the user sees -->
+        <option value="">-- Select --</option>
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js" selected>JavaScript (selected)</option>
+      </select>
+      <label for="cars">Multiple choice (hold Ctrl):</label>
+      <select id="cars" name="cars" multiple size="3">
+        <option>Red</option>
+        <option>Green</option>
+        <option>Blue</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+/* url() = relative path to the image */
+.box { width: 300px; height: 180px; border: 2px solid #333; margin: 10px; color: white; font-weight: bold; display: inline-block; background-image: url("assets/background.jpg"); background-size: 100px; }
+.repeat   { background-repeat: repeat; }
+.norepeat { background-repeat: no-repeat; }
+.repeatx  { background-repeat: repeat-x; }

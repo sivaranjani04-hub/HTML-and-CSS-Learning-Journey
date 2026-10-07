@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; padding: 30px; }
+.track { position: relative; height: 90px; background: #eceff1; margin: 10px 0 30px; }
+.ball { position: absolute; width: 60px; height: 60px; top: 15px; left: 0; background: #e91e63; border-radius: 50%; }
+@keyframes slide { from { left: 0; } to { left: calc(100% - 60px); } }
+.ball { animation-name: slide; animation-duration: 3s; animation-iteration-count: infinite; }
+.d1 { animation-direction: normal; }
+.d2 { animation-direction: reverse; }
+.d3 { animation-direction: alternate; }
+.t1 { animation-timing-function: linear; animation-direction: alternate; }       /* constant speed */
+.t2 { animation-timing-function: ease-in; animation-direction: alternate; }      /* slow start */
+.t3 { animation-timing-function: ease-out; animation-direction: alternate; }     /* slow end */
+.t4 { animation-timing-function: ease-in-out; animation-direction: alternate; }  /* slow start and end */

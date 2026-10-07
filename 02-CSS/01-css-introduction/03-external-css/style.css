@@ -1,0 +1,11 @@
+/* style.css - one file can style many pages */
+body {
+  background-color: #fff8e1;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #e65100;
+}
+p {
+  color: #333;
+}

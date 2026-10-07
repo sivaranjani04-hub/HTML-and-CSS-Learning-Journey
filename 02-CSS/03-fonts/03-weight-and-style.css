@@ -1,0 +1,6 @@
+.w1 { font-weight: 400; }   /* normal */
+.w2 { font-weight: bold; }  /* same as 700 */
+.w3 { font-weight: 900; }
+.s1 { font-style: italic; }
+.s2 { font-style: oblique; }
+p { font-size: 22px; }

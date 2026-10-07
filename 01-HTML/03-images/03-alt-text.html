@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alt Text</title>
+  </head>
+  <body>
+    <h1>Alt Text</h1>
+    <!-- alt is shown if the image cannot load, and read aloud by screen readers -->
+    <img
+      src="assets/dog.jpg"
+      alt="A cartoon dog sitting on green grass"
+      width="250"
+    />
+    <p>
+      Below, the file name is wrong on purpose, so you can see the alt text
+      appear:
+    </p>
+    <img
+      src="assets/missing-file.jpg"
+      alt="This text appears because the image is missing"
+    />
+  </body>
+</html>

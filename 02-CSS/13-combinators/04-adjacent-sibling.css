@@ -1,0 +1,2 @@
+/* A + B: selects only the FIRST B that comes IMMEDIATELY after A */
+h2 + p { color: darkorange; font-weight: bold; }

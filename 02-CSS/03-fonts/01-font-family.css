@@ -1,0 +1,6 @@
+/* If the first font is missing, the browser tries the next one. Always end with a generic family: serif, sans-serif, monospace */
+.a { font-family: Arial, Helvetica, sans-serif; }
+.b { font-family: "Times New Roman", Times, serif; }   /* names with spaces need quotes */
+.c { font-family: "Courier New", monospace; }
+.d { font-family: "NotARealFont", Verdana, sans-serif; }
+p { font-size: 22px; }

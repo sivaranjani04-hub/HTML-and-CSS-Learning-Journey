@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple transforms</title>
+  <link rel="stylesheet" href="05-multiple-transforms.css">
+</head>
+<body>
+  <p>Hover over the boxes. Several functions are written in one transform property, separated by spaces.</p>
+  <div class="row"><div class="box m1">translate + rotate</div><div class="box m2">scale + skew</div><div class="box m3">all four</div></div>
+  <p>Order matters: rotate then translate is different from translate then rotate.</p>
+  <div class="row"><div class="box o1">translateX(60px) rotate(45deg)</div><div class="box o2">rotate(45deg) translateX(60px)</div></div>
+</body>
+</html>

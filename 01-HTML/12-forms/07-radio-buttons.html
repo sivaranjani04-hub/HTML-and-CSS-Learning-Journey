@@ -1,0 +1,29 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radio Buttons</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Radio Buttons</h1>
+    <form action="result.html" method="get">
+      <p>Choose your gender (only ONE can be selected):</p>
+      <!-- Same name = same group. value is what gets sent. -->
+      <input type="radio" id="m" name="gender" value="male" />
+      <label class="inline" for="m">Male</label><br />
+      <input type="radio" id="f" name="gender" value="female" />
+      <label class="inline" for="f">Female</label><br />
+      <input type="radio" id="o" name="gender" value="other" checked />
+      <label class="inline" for="o">Other (checked by default)</label>
+      <p>Second group (different name, so it works independently):</p>
+      <input type="radio" id="s" name="size" value="small" />
+      <label class="inline" for="s">Small</label>
+      <input type="radio" id="l" name="size" value="large" />
+      <label class="inline" for="l">Large</label><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

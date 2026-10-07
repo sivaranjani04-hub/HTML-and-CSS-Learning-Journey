@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>File Upload</h1>
+    <!-- enctype="multipart/form-data" is REQUIRED for uploading files, and the method must be post -->
+    <form
+      action="https://httpbin.org/post"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <label for="pic">Choose an image:</label>
+      <!-- accept limits the file types in the file picker -->
+      <input type="file" id="pic" name="picture" accept="image/*" />
+      <label for="doc">Choose a PDF (several allowed):</label>
+      <input type="file" id="doc" name="docs" accept=".pdf" multiple />
+      <button type="submit">Upload</button>
+    </form>
+  </body>
+</html>

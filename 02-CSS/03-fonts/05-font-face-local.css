@@ -1,0 +1,6 @@
+/* @font-face registers a font file that you ship with your project */
+@font-face {
+  font-family: "MyPacifico";                         /* any name you like */
+  src: url("assets/fonts/Pacifico-Regular.ttf") format("truetype");  /* relative path to the file */
+}
+.local { font-family: "MyPacifico", cursive; font-size: 34px; }

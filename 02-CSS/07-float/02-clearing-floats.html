@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clearing floats</title>
+  <link rel="stylesheet" href="02-clearing-floats.css">
+</head>
+<body>
+  <h1>Problem: a container does not wrap floated items</h1>
+  <div class="container broken"><div class="item">Float</div><div class="item">Float</div></div>
+  <p>The yellow container above collapsed to nothing.</p>
+  <h1>Fix 1: overflow: auto</h1>
+  <div class="container fix1"><div class="item">Float</div><div class="item">Float</div></div>
+  <h1>Fix 2: clear: both on an extra element</h1>
+  <div class="container"><div class="item">Float</div><div class="item">Float</div><div class="clear"></div></div>
+  <p>Text continues below.</p>
+</body>
+</html>

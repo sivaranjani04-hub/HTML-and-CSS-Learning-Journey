@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Checkbox</h1>
+    <form action="result.html" method="get">
+      <p>Choose your hobbies (you can select MANY):</p>
+      <input type="checkbox" id="h1" name="hobby" value="reading" />
+      <label class="inline" for="h1">Reading</label><br />
+      <input type="checkbox" id="h2" name="hobby" value="coding" checked />
+      <label class="inline" for="h2">Coding (checked)</label><br />
+      <input type="checkbox" id="h3" name="hobby" value="music" />
+      <label class="inline" for="h3">Music</label><br />
+      <input type="checkbox" id="agree" name="agree" required />
+      <label class="inline" for="agree">I agree to the terms (required)</label
+      ><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

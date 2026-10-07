@@ -1,0 +1,7 @@
+/* content is REQUIRED for ::before and ::after. They add text/symbols without changing the HTML */
+.quote::before { content: "\201C"; font-size: 2em; color: #3f51b5; }   /* opening quote mark */
+.quote::after  { content: "\201D"; font-size: 2em; color: #3f51b5; }
+.note::before  { content: "\26A0\FE0F "; }                            /* warning emoji */
+.note::after   { content: " \2705"; }                                  /* check mark */
+.ext::after    { content: " \2197"; }                                  /* arrow */
+p { font-size: 22px; }

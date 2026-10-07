@@ -1,0 +1,7 @@
+/* The page background is grey and boxes are blue so the margin (empty space) is obvious */
+body { background: #cfd8dc; }
+div { background: #3f51b5; color: white; padding: 8px; }
+.a { margin: 20px; }
+.b { margin: 10px 60px; }
+.c { margin: 5px 20px 40px; }
+.d { margin: 10px 20px 30px 40px; }   /* clockwise: top, right, bottom, left */

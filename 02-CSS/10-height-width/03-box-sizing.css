@@ -1,0 +1,3 @@
+div { width: 200px; padding: 20px; border: 10px solid black; background: #aed581; margin: 10px 0; }
+.content-box { box-sizing: content-box; }   /* default: padding and border are ADDED to the width (260px total) */
+.border-box  { box-sizing: border-box; }    /* padding and border are INCLUDED in the width (200px total) */

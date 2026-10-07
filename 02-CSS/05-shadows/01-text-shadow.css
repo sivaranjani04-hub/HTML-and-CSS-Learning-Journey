@@ -1,0 +1,6 @@
+/* text-shadow: horizontal  vertical  blur  colour */
+h1 { font-size: 44px; margin: 20px; }
+.a { text-shadow: 3px 3px #999; }
+.b { text-shadow: 3px 3px 6px #555; }
+.c { color: white; background: #222; padding: 10px; text-shadow: 0 0 10px cyan, 0 0 20px cyan; }
+.d { text-shadow: 2px 2px red, 5px 5px blue; }

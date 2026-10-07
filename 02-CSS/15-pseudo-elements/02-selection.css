@@ -1,0 +1,2 @@
+p { font-size: 22px; }
+::selection { background: #ff4081; color: white; }   /* style of highlighted text */

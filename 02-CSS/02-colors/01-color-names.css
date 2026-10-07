@@ -1,0 +1,22 @@
+/* 140+ colour names exist, e.g. tomato, dodgerblue, orange */
+p {
+  padding: 12px;
+  margin: 6px 0;
+  font-size: 20px;
+}
+.a {
+  background-color: tomato;
+  color: white;
+}
+.b {
+  background-color: dodgerblue;
+  color: white;
+}
+.c {
+  background-color: mediumseagreen;
+  color: white;
+}
+.d {
+  background-color: orange;
+  color: black;
+}

@@ -1,0 +1,5 @@
+.parent { position: relative; height: 200px; background: #e3f2fd; border: 2px solid #1565c0; margin: 20px 0; }
+.box { width: 100px; height: 60px; background: #ef5350; color: white; padding: 4px; box-sizing: border-box; }
+.ghost { background: #bdbdbd; }
+/* relative: moved from where it WOULD have been; its old space stays reserved */
+.moved { position: relative; top: 30px; left: 60px; background: #43a047; }

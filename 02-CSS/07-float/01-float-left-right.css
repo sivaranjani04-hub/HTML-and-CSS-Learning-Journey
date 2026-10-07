@@ -1,0 +1,3 @@
+img { width: 180px; border-radius: 8px; }
+.left  { float: left;  margin: 0 15px 10px 0; }   /* margin keeps text away from the image */
+.right { float: right; margin: 0 0 10px 15px; }

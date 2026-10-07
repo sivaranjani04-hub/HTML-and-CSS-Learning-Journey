@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; padding: 30px; }
+.track { position: relative; height: 90px; background: #eceff1; margin: 10px 0 30px; }
+.ball { position: absolute; width: 60px; height: 60px; top: 15px; left: 0; background: #e91e63; border-radius: 50%; }
+/* 1. Define the steps with @keyframes */
+@keyframes slide {
+  from { left: 0; }
+  to   { left: calc(100% - 60px); }
+}
+/* 2. Attach it to an element */
+.ball {
+  animation-name: slide;       /* which keyframes */
+  animation-duration: 3s;      /* how long */
+}

@@ -1,0 +1,8 @@
+div { display: inline-block; width: 140px; height: 90px; margin: 10px; padding: 10px; border-style: solid; }
+.a { border-width: 1px; }
+.b { border-width: 10px; }
+.c { border-color: crimson; }
+.d { border-radius: 20px; }
+.e { border-radius: 50%; }                 /* a square with 50% radius becomes a circle (here an oval) */
+.f { border-width: 2px 8px 4px 12px;      /* top right bottom left */
+     border-color: red green blue orange; }

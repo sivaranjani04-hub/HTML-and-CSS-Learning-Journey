@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex-wrap and align-content</title>
+  <link rel="stylesheet" href="05-flex-wrap.css">
+</head>
+<body>
+  <h3>nowrap (default): items shrink</h3><div class="container n"><div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div></div>
+  <h3>wrap: items go to the next line</h3><div class="container w"><div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div></div>
+  <h3>wrap + align-content: space-between (multi-line spacing)</h3><div class="container ac"><div class="item">1</div><div class="item">2</div><div class="item">3</div><div class="item">4</div><div class="item">5</div><div class="item">6</div></div>
+</body>
+</html>

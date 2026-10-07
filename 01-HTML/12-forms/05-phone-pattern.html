@@ -1,0 +1,35 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone and Pattern</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Telephone and Pattern</h1>
+    <form action="result.html" method="get">
+      <label for="ph">Phone (10 digits):</label>
+      <!-- pattern = a regular expression the value must match. [0-9]{10} means exactly 10 digits -->
+      <input
+        type="tel"
+        id="ph"
+        name="phone"
+        pattern="[0-9]{10}"
+        title="Enter exactly 10 digits"
+        placeholder="9876543210"
+        required
+      />
+      <label for="pin">PIN code (6 digits):</label>
+      <input
+        type="text"
+        id="pin"
+        name="pin"
+        pattern="[0-9]{6}"
+        title="Enter exactly 6 digits"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

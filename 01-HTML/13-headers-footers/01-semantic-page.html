@@ -1,0 +1,42 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header: the top part of the page (logo, title, navigation) -->
+    <header>
+      <h1>My Learning Blog</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#articles">Articles</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- main: the unique main content (only ONE per page) -->
+    <main>
+      <h2 id="home">Welcome</h2>
+      <p>This page uses semantic elements: header, nav, main and footer.</p>
+      <hr />
+      <!-- horizontal rule separates sections -->
+      <h2 id="articles">Articles</h2>
+      <p>
+        Semantic elements describe the PURPOSE of each part, which helps search
+        engines and screen readers.
+      </p>
+    </main>
+
+    <!-- footer: bottom of the page (author, copyright, contact) -->
+    <footer id="contact">
+      <p>Written by Sivaranjani R</p>
+      <p>&copy; 2026 My Learning Blog. All rights reserved.</p>
+      <!-- &copy; shows the copyright symbol -->
+      <p>Email: <a href="mailto:someone@example.com">someone@example.com</a></p>
+    </footer>
+  </body>
+</html>

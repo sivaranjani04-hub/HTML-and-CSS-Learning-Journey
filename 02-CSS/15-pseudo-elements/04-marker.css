@@ -1,0 +1,3 @@
+/* ::marker styles the bullet or number of a list item */
+.a li::marker { color: crimson; font-size: 1.5em; }
+.b li::marker { content: "\2605  "; color: gold; }   /* star as a custom bullet */

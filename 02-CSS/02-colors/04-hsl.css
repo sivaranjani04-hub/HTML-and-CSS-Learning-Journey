@@ -1,0 +1,9 @@
+/* hsl(hue, saturation, lightness)
+   hue: 0-360 on the colour wheel (0 red, 120 green, 240 blue)
+   saturation: 0% grey ... 100% full colour
+   lightness: 0% black ... 50% normal ... 100% white */
+p { padding: 12px; margin: 6px 0; font-size: 20px; color: white; }
+.a { background-color: hsl(0, 100%, 50%); }
+.b { background-color: hsl(120, 100%, 30%); }
+.c { background-color: hsl(240, 100%, 50%); }
+.d { background-color: hsl(240, 100%, 80%); color: black; }

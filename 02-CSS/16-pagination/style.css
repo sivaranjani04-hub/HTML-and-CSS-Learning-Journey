@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; text-align: center; padding: 30px; }
+/* container for the page links */
+.pagination { display: inline-block; }
+.pagination a { color: #333; float: left; padding: 8px 16px; text-decoration: none; border: 1px solid #ddd; margin: 0 2px; transition: background-color .3s; }
+.pagination a.active { background-color: #3f51b5; color: white; border-color: #3f51b5; }   /* current page */
+.pagination a:hover:not(.active) { background-color: #ddd; }                              /* hover on other pages */
+.pagination a:first-child { border-radius: 5px 0 0 5px; }
+.pagination a:last-child  { border-radius: 0 5px 5px 0; }

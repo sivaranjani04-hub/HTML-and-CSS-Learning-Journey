@@ -1,0 +1,5 @@
+div { background: #ff7043; color: white; margin: 8px 0; padding: 6px; }
+.max  { max-width: 400px; }
+.min  { min-width: 300px; width: 10%; }
+.minh { min-height: 100px; }
+.maxh { max-height: 40px; overflow: auto; }

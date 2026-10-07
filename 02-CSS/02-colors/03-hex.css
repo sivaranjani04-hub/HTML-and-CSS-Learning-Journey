@@ -1,0 +1,6 @@
+/* #RRGGBB: two hexadecimal digits for each of red, green and blue */
+p { padding: 12px; margin: 6px 0; font-size: 20px; color: white; }
+.a { background-color: #ff0000; }
+.b { background-color: #00a86b; }
+.c { background-color: #3f51b5; }
+.d { background-color: #f0f; }   /* short HEX: #RGB */

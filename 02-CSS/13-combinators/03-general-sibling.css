@@ -1,0 +1,2 @@
+/* A ~ B: selects ALL B siblings that come AFTER A (same parent) */
+h2 ~ p { color: royalblue; font-weight: bold; }

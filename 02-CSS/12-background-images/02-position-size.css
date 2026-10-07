@@ -1,0 +1,7 @@
+.box { width: 260px; height: 160px; border: 2px solid #333; margin: 10px; display: inline-block; color: white; font-weight: bold;
+       background-image: url("assets/background.jpg"); background-repeat: no-repeat; background-size: 120px; }
+.a { background-position: top left; }
+.b { background-position: center; }
+.c { background-position: bottom right; }
+.d { background-size: cover; background-position: center; }    /* fills the box, may crop */
+.e { background-size: contain; background-position: center; background-color: #ddd; }  /* whole image visible */

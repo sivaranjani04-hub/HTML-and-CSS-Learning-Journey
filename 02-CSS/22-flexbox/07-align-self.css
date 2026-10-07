@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; }
+.container { background: #e3f2fd; border: 2px solid #1565c0; margin: 10px 0 25px; padding: 6px; }
+.item { background: #3f51b5; color: white; padding: 18px; margin: 4px; font-size: 20px; text-align: center; min-width: 50px; }
+h3 { margin-bottom: 4px; }
+.container { display: flex; height: 200px; align-items: flex-start; gap: 6px; }
+/* align-self overrides align-items for ONE item */
+.s1 { align-self: flex-start; }
+.s2 { align-self: center; }
+.s3 { align-self: flex-end; }
+.s4 { align-self: stretch; }

@@ -1,0 +1,5 @@
+/* Order matters: link, visited, hover, active (LoVe HAte) */
+a:link    { color: blue; }                  /* unvisited */
+a:visited { color: purple; }                /* already visited */
+a:hover   { color: red; text-decoration: none; background: #ffeb3b; }  /* mouse over */
+a:active  { color: green; }                 /* while being clicked */

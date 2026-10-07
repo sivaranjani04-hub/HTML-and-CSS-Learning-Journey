@@ -1,0 +1,25 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Email</h1>
+    <form action="result.html" method="get">
+      <label for="em">Email:</label>
+      <!-- type="email" checks for a valid email format automatically -->
+      <input
+        type="email"
+        id="em"
+        name="email"
+        placeholder="you@example.com"
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

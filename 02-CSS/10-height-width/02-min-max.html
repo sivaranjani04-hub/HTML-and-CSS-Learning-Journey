@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>min and max width/height</title>
+  <link rel="stylesheet" href="02-min-max.css">
+</head>
+<body>
+  <p>Resize the browser window to see the difference.</p>
+  <div class="max">max-width: 400px (never wider than 400px, shrinks on small screens)</div>
+  <div class="min">min-width: 300px (never narrower than 300px)</div>
+  <div class="minh">min-height: 100px (grows with content, never shorter)</div>
+  <div class="maxh">max-height: 40px; overflow: auto; This text is long enough to be cut by the max-height, so a scrollbar appears when needed to read everything here.</div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* Shared table styling */
+table {
+  border-collapse: collapse; /* merge double borders into one */
+  width: 60%;
+  margin-bottom: 30px;
+}
+th,
+td {
+  border: 1px solid #444;
+  padding: 8px;
+}
+th {
+  background-color: #3f51b5;
+  color: white;
+} /* header cells */
+tr:nth-child(even) {
+  background-color: #f1f1f1;
+} /* zebra rows */
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.pass {
+  background-color: #c8e6c9;
+}
+.fail {
+  background-color: #ffcdd2;
+}

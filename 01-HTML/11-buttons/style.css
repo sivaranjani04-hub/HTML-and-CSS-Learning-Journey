@@ -1,0 +1,22 @@
+/* Button styling used by the examples */
+.btn {
+  font-size: 18px; /* text size */
+  background-color: #3f51b5; /* button colour */
+  color: white; /* text colour */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px; /* rounded corners */
+  cursor: pointer; /* hand cursor on hover */
+}
+.btn:hover {
+  background-color: #283593;
+}
+.green {
+  background-color: #2e7d32;
+}
+.pill {
+  border-radius: 30px;
+}
+.big {
+  font-size: 28px;
+}

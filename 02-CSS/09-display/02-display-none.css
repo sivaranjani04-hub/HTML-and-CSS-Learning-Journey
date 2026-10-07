@@ -1,0 +1,3 @@
+.hidden { display: none; }            /* removed from the page completely */
+.invisible { visibility: hidden; }    /* invisible but still takes space */
+p { background: #fff9c4; padding: 8px; }

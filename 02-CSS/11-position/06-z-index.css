@@ -1,0 +1,7 @@
+.parent { position: relative; height: 200px; background: #e3f2fd; border: 2px solid #1565c0; margin: 20px 0; }
+.box { width: 100px; height: 60px; background: #ef5350; color: white; padding: 4px; box-sizing: border-box; }
+/* z-index only works on positioned elements; the higher number is on top */
+.box { position: absolute; width: 140px; height: 90px; }
+.one   { top: 20px; left: 20px;  background: #e53935; z-index: 1; }
+.two   { top: 50px; left: 70px;  background: #1e88e5; z-index: 3; }
+.three { top: 80px; left: 120px; background: #43a047; z-index: 2; }

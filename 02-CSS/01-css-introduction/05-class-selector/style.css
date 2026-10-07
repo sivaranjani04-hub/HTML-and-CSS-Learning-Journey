@@ -1,0 +1,10 @@
+/* . (dot) selects by class */
+.note {
+  background: #e3f2fd;
+  padding: 16px;
+  border-radius: 4px;
+}
+.important {
+  color: crimson;
+  font-weight: bold;
+}

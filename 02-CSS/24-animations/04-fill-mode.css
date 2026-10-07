@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; padding: 30px; }
+.track { position: relative; height: 90px; background: #eceff1; margin: 10px 0 30px; }
+.ball { position: absolute; width: 60px; height: 60px; top: 15px; left: 0; background: #e91e63; border-radius: 50%; }
+@keyframes slide { from { left: 150px; background: gold; } to { left: calc(100% - 60px); background: green; } }
+.ball { animation-name: slide; animation-duration: 2s; }
+.n  { animation-fill-mode: none; }
+.f  { animation-fill-mode: forwards; }
+.bk { animation-fill-mode: backwards; animation-delay: 2s; }

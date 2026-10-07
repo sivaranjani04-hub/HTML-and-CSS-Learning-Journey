@@ -1,0 +1,18 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Sources</title>
+  </head>
+  <body>
+    <h1>MP4 with WebM Fallback</h1>
+    <video width="320" controls poster="assets/images/poster.jpg">
+      <!-- Browser picks the first format it supports -->
+      <source src="assets/video/sample.mp4" type="video/mp4" />
+      <source src="assets/video/sample.webm" type="video/webm" />
+      Your browser does not support the video tag.
+    </video>
+  </body>
+</html>

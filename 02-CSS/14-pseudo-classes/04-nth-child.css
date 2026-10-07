@@ -1,0 +1,5 @@
+table { border-collapse: collapse; width: 200px; }
+td { padding: 8px; border: 1px solid #ccc; }
+tr:nth-child(even) { background: #e3f2fd; }   /* 2, 4, 6 */
+tr:nth-child(3)    { background: #fff59d; }   /* exactly the 3rd */
+tr:nth-child(3n)   { font-weight: bold; }     /* every 3rd: 3, 6 */

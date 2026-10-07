@@ -1,0 +1,30 @@
+<!doctype html>
+<!-- DOCTYPE tells the browser this is a modern HTML5 page -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styled Button</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Styled Buttons</h1>
+    <!-- Inline style first -->
+    <button
+      style="
+        font-size: 20px;
+        background-color: orange;
+        color: black;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 18px;
+      "
+    >
+      Inline styled
+    </button>
+    <!-- Then the same idea using a CSS class (cleaner) -->
+    <button class="btn">Blue</button>
+    <button class="btn green">Green</button>
+    <button class="btn pill big">Pill + big</button>
+  </body>
+</html>
