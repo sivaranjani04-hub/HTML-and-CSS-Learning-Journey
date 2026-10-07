@@ -7,8 +7,6 @@ My personal notes for learning **HTML** and **CSS**. Every topic has its own fol
 2. Double-click an `.html` file (or use the VS Code *Live Server* extension) to see it in the browser.
 3. Change the code and refresh to experiment.
 
-Only plain HTML and CSS are used. No frameworks. JavaScript appears only in the button `onclick` example.
-
 ## Folder structure
 ```
 HTML-CSS-Learning/
